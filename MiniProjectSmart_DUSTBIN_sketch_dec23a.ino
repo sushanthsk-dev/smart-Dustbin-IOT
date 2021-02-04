@@ -8,9 +8,9 @@ BlynkTimer timer;
 int msg = 0;
 long ultraDetectFunc();
 void msgService();
-char auth[] = "fvU4ImdxnhFN15zra9B7gKVRCdQ4WDv2";
-char ssid[] = "sushanthiot";
-char pass[] = "Diya318@#";
+char auth[] = "AUTH_CODE_BLYNK";
+char ssid[] = "WIFI_SSID";
+char pass[] = "WIFI_PASSWORD";
 void setup() {
     pinMode(ultraTrig,OUTPUT);
     pinMode(ultraEcho,INPUT);
